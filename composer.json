@@ -1,0 +1,19 @@
+{
+    "name": "wp-cli-test/package-name",
+    "description": "Test package/repository name mismatch",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/wp-cli-test/repository-name",
+    "license": "MIT",
+    "authors": [],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "files": [ "command.php" ]
+    },
+    "require": {
+        "wp-cli/wp-cli": "^1.1.0"
+    },
+    "require-dev": {
+        "behat/behat": "~2.5"
+    }
+}
